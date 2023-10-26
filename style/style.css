@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/space2.jpg);
+}
+
+.navBar{
+    
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Logo{
+    height: 130px;
+    width: 130px;
+}
+
+li{
+    font-family: Arial, sans-serif;
+    font-size: 2.0em;
+    color: white;
+}
+
+
+
+.BgHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.titre1{
+    font-family: Arial, sans-serif;
+    font-size: 3.0em;
+    color: white;
+}
+
+.titre2{
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 3.0em;
+    color: white;
+}
